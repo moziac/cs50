@@ -1,0 +1,48 @@
+body {
+  font-size: 16px;
+}
+main {
+  margin: 0 20px;
+}
+
+header,
+form {
+  border-bottom: 1px solid #5e636e;
+}
+
+header h1 {
+  color: rgb(241, 131, 121);
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+
+input {
+  border: 1px solid #5e636e;
+  width: 50%;
+  padding: 6px;
+  font-size: 16px;
+}
+input:focus {
+  border-color: #004daa !important;
+}
+label {
+  display: inline-block;
+  width: 200px;
+}
+
+.home-link {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.form-btn {
+  margin: 10px 0;
+  background-color: #2f5bb7;
+  border: 1px solid #2f5bb7;
+}

@@ -1,0 +1,73 @@
+html {
+  background-color: #1d1e20;
+  color: rgb(193, 188, 180);
+  height: 100vh;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: fantasy, Arial, Helvetica, sans-serif;
+}
+a {
+  color: rgb(193, 188, 180);
+  text-decoration: none;
+  display: inline-block;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+input {
+  width: 80%;
+  background-color: transparent;
+  color: #c2c9d6;
+  border: none;
+  outline: none;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin: 10px 20px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+  background-color: #111213;
+}
+
+footer p {
+  align-self: center;
+}
+footer nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-btn {
+  background-color: #2f3237;
+  color: #c2c9d6;
+  border-radius: 20px;
+  border: 1px solid #c2c9d6;
+  cursor: pointer;
+  padding: 5px 10px;
+  max-width: 150px;
+}

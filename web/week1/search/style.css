@@ -1,0 +1,57 @@
+h1 {
+  font-size: 50px;
+  cursor: default;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 50px 0;
+  max-height: 100px;
+}
+.image-txt {
+  color: rgb(75, 162, 246);
+  cursor: default;
+  position: absolute;
+  top: 215px;
+  right: 200px;
+}
+
+.input-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  border: 2px solid #5e636e;
+  border-radius: 30px;
+  margin: 0 auto 15px auto;
+  height: 30px;
+  max-width: 80%;
+  width: 100vw;
+}
+.input-wrapper:hover {
+  background-color: #2f3237;
+  border-color: #2f3237;
+}
+.carbon-msg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding-bottom: 5px;
+}
+.carbon-msg span {
+  color: green;
+}
